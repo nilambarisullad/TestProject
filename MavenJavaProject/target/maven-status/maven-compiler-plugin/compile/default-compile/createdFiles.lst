@@ -1,0 +1,8 @@
+com\jsonReader\Address$AddressLineDetails.class
+com\jsonReader\Address$Type.class
+com\jsonReader\PrintAddress$1.class
+com\jsonReader\PrintAddress.class
+com\jsonReader\Address$Country.class
+com\jsonReader\App.class
+com\jsonReader\Address$ProvinceOrState.class
+com\jsonReader\Address.class

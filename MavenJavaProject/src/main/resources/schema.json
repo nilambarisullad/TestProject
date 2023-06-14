@@ -1,0 +1,40 @@
+{
+  "title":"Address",
+  "description":"An address ",
+  "type":"object",
+  "properties": {
+    "postalCode": {
+      "description": "Postalcode of the address",
+      "type": "integer",
+      "minimum": 6,
+      "maximum": 6
+     },
+    "country": {
+      "description": "Country in address",
+      "type": "object",
+      "properties": {
+       "code": {
+        "type": "string"
+       },
+       "name": {
+         "type": "string"
+       }
+     },
+     "required": [ "code", "name"]
+     },
+    "addressLineDetail": {
+     "description": "Details of line address",
+     "type": "object",
+     "properties": {
+       "line1": {
+        "type": "string"
+       },
+       "line2": {
+         "type": "string"
+       }
+     },
+     "required": [ "line1", "line2"]
+    }
+  },
+  "required": [ "postalCode", "country", "addressLineDetail" ]
+}
